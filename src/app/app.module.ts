@@ -16,19 +16,19 @@ registerLocaleData(localEsMX);
 registerLocaleData(localJa);
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
+    declarations: [
+        AppComponent
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
 
-    SharedModule
-  ],
-  providers: [
-    { provide: LOCALE_ID, useValue: 'es-MX' }
-  ],
-  bootstrap: [AppComponent]
+        SharedModule
+    ],
+    providers: [
+        { provide: LOCALE_ID, useValue: 'es-MX' }
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
